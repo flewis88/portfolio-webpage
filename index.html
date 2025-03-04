@@ -1,0 +1,77 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- Header -->
+<header>
+    <div class="header-top">
+        <pre class="ascii-art">
+______________________   _____ __________.____       ___________________________
+\__    ___/\_   _____/  /     \\______   \    |     /  _  \__    ___/\_   _____/
+  |    |    |    __|_  /  \ /  \|     ___/    |    /  /_\  \|    |    |    __|_ 
+  |    |    |        \/    Y    \    |   |    |___/    |    \    |    |        \
+  |____|   /_______  /\____|__  /____|   |_______ \____|__  /____|   /_______  /
+                   \/         \/                 \/       \/                 \/             
+        </pre>
+    </div>
+    <div><h2>JOB ROLE</h2></div>
+    <div><h3>LOCATION</h3></div>
+
+</header>
+
+  <!-- Left Sidebar -->
+  <div class="sidebar">
+    <button id="menu-toggle">☰</button>
+    <br>
+    <a href="#" data-page="home.html">
+        <img src="images/default-img.jpg" alt="Profile Picture" class="profile-picture">
+    </a>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <br>
+        <a href="https://github.com/" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>   
+        <nav class="sidebar-nav">
+            <a href="#" data-page="home.html">
+                <span class="icon"><i class="fa-solid fa-house"></i></span>
+                <span class="text">Home</span>
+            </a>
+            <a href="#" data-page="projects.html">
+                <span class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                <span class="text">Projects</span>
+            </a>
+            <a href="#" data-page="contact.html">
+                <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                <span class="text">Contact</span>
+            </a>
+        </nav>
+
+  </div>
+
+
+<!-- Main Content -->
+<main id="content">
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Click the menu links to load different pages dynamically.</p>
+    </section>
+</main>
+
+
+<!-- JavaScript for toggle -->
+<script src="script.js"></script>
+
+</body>
+</html>

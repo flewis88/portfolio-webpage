@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Welcome!",
+        "date": "26 Feb 2025",
+        "image": "images/default-img.jpg",
+        "content": "Welcome to the portfolio.",
+        "link": {
+            "url": "www.google.com",
+            "label": "Google"
+        }
+    }
+]
